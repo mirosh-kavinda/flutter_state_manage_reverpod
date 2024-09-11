@@ -1,12 +1,12 @@
 
 # Riverpod-Based Flutter Sample Project
 
-This project demonstrates an **advanced Flutter application** using **Riverpod** for state management. It highlights essential concepts like `Provider`, `StateProvider`, `StateNotifierProvider`, and navigation using `Navigator 2.0` with the **RouterDelegate** pattern. The architecture is designed to be scalable and maintainable, keeping the business logic, state management, and UI structure separate.
+This project demonstrates an **Flutter application** using **Riverpod** for state management. It highlights essential concepts like `Provider`, `StateProvider`, `StateNotifierProvider`, and navigation using `Navigator 2.0` with the **RouterDelegate** pattern. The architecture is designed to be scalable and maintainable, keeping the business logic, state management, and UI structure separate.
 
 ## Project Overview
 
 This sample app is built to showcase how to effectively use Riverpod for state management in Flutter. The project includes:
-- Simple and advanced providers
+- Simple 
 - State management with `StateNotifier` and `StateProvider`
 - Navigation using `Navigator 2.0` and Riverpod
 - Separation of concerns: Providers, Models, and Services
@@ -120,7 +120,7 @@ This project uses a simple repository pattern to separate data fetching logic fr
 
 ### 5. **Navigation with Navigator 2.0**
 
-This project uses **Navigator 2.0** with a custom `RouterDelegate` to handle advanced navigation scenarios. The navigation state is also managed using Riverpod.
+This project uses **Navigator 2.0** with a custom `RouterDelegate` to handle navigation scenarios. The navigation state is also managed using Riverpod.
 
 - **RouterDelegate:**
 
@@ -226,7 +226,7 @@ flutter run
 
 ## Project Features
 
-- **Simple and Advanced State Management**: The project showcases basic and advanced state management techniques with Riverpod.
+- **Simple and  State Management**: The project showcases basic and  state management techniques with Riverpod.
 - **Modular Architecture**: Providers, models, services, and navigation are separated to ensure scalability and maintainability.
 - **RouterDelegate Navigation**: Demonstrates dynamic route handling using `Navigator 2.0` and Riverpod.
 

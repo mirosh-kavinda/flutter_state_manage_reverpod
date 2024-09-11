@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return Consumer(
       builder: (context, ref, child) {
         return MaterialApp.router(
-          title: 'Advanced Riverpod Sample',
+          title: 'Riverpod Sample',
           routerDelegate: MyRouterDelegate(ref),
           theme: ThemeData(
             primarySwatch: Colors.blue,

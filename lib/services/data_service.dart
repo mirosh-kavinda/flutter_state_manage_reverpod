@@ -1,8 +1,14 @@
-// package we need for json encode/decode
-import 'dart:convert';
-
 // service helper for loading json file
 import 'package:flutter/services.dart' as rootBundle;
+// package we need for json encode/decode
+import 'dart:convert';
+// A simple repository to simulate data fetching
+class DataRepository {
+  Future<String> fetchData() async {
+    await Future.delayed(Duration(seconds: 2)); // Simulating network delay
+    return "Data from Repository this is the hardcoded test";
+  }
+}
 
 class MovieService {
   Future<List<dynamic>> fetchMovies() async {

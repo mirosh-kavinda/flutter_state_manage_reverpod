@@ -6,8 +6,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 // service helper for loading json file
 import 'package:flutter/services.dart' as rootBundle;
+import 'package:riverpod_sample/services/data_service.dart';
 import '../models/movie.dart';
-import '../services/movie_service.dart';
 
 // Import freezed file (maybe not yet generated)
 part 'movie_provider.freezed.dart';

@@ -10,8 +10,6 @@ class HomePage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     // Accessing simple provider
     final message = ref.watch(helloWorldProvider);
-
-
     // Accessing state notifier provider
     final counterState = ref.watch(counterNotifierProvider);
 
@@ -59,7 +57,7 @@ class HomePage extends ConsumerWidget {
           onPressed: () {
               ref.read(currentRouteProvider.notifier).state = '/details';
           },
-          child: Text('Go to Details Page'),
+          child: Text('Go to Movies Page'),
         ),),
            
 
@@ -68,7 +66,7 @@ class HomePage extends ConsumerWidget {
           onPressed: () {
           ref.read(showFetchValuesProvider.notifier).state = !showFetchValues;
           },
-          child: Text('Fetch Data from Repo'),
+          child: Text('Fetch Data Provider'),
         ),),   // FutureProvider for repository
 
              // FutureProvider for repository

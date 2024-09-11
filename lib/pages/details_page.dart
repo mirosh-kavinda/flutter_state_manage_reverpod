@@ -54,7 +54,7 @@ class DetailsPage extends ConsumerWidget {
             secondary: Colors.blue,
           ),
         ),
-        title: 'Le Movie App',
+        title: 'Le Movies Page',
         home: Scaffold(
           body: SafeArea(
             child: Column(
